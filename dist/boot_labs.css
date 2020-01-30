@@ -465,6 +465,9 @@ responsive medias queries
        margin-right: 0%;
        
    }
+    .w100{
+    height:auto;
+    }
 }
 @media screen and (max-width: 500px){
      .modal{
