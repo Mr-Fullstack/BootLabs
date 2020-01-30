@@ -209,15 +209,24 @@ html{
     padding: 1rem;
 }
 /* width*/
-.w50{ width: 50vw; }
-.w33{ width: 33.33vw;}
-.w100{ width: 100vw; }
+.w50vw{ width: 50vw; }
+.w33vw{ width: 33.33vw;}
+.w100vw{ width: 100vw; }
+.w_auto{width: auto;}
+
+.w50%{ width: 50%; }
+.w33%{ width: 33.33%;}
+.w100%{ width: 100%; }
 .w_auto{width: auto;}
 
 /*height*/
-.h50{ height: 50vh; }
-.h33{ height: 33.33vh;}
-.h100{ height: 100vh; }
+.h50vh{ height: 50vh; }
+.h33vh{ height: 33.33vh;}
+.h100vh{ height: 100vh; }
+
+.h50%{ height: 50%; }
+.h33%{ height: 33.33%;}
+.h100%{ height: 100%; }
 
 /* border-radius*/
 .b10{ border-radius: 10%; }
