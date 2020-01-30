@@ -113,8 +113,15 @@ html{
 .grid.col-3-7{ grid-template-columns:30% 70%; }
 .grid.col-4-6{ grid-template-columns:40% 60%; }
 
+.row{
+    display:block;
+    width:100%;
+}
 
-
+.column{
+    display:block;
+    height:100%;
+}
 .no-visible{ display: none !important; }
 .visible{ display: block !important; }
 .btn{
