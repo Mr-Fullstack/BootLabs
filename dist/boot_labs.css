@@ -466,7 +466,7 @@ responsive medias queries
        
    }
     .w100{
-    height:auto;
+        height:auto !important;
     }
 }
 @media screen and (max-width: 500px){
