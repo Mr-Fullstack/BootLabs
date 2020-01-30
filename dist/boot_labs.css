@@ -65,7 +65,9 @@ html{
 .context.tablet,.center.tablet{ width: 1280px;}
 .context.tv,.center.tv{ width: 1080px; }
 
-/* boot display flexbox*/
+/* boot display FLEX BOX*/
+
+/* justify-center*/
 .flex{ display: flex; position: relative;}
 .flex.jcenter{  justify-content: center;}
 .flex.jbetween{  justify-content: space-between;}
@@ -73,12 +75,17 @@ html{
 .flex.jaround{  justify-content: space-around;}
 .flex.jevenly{  justify-content: space-evenly;}
 .flex.jstretch{  justify-content: stretch;}
+
+/* align-items*/
 .flex.alicenter{ align-items: center;}
 .flex.alistart{  align-items:flex-start;}
 .flex.alistretch{ align-items:stretch;}
 .flex.aliend{    align-items:flex-end;}
 .flex.dir-row{   flex-direction: row;}
 .flex.dir-column{  flex-direction: column;}
+
+/*flex-flow*/
+.flex.flow-wrap{  flex-flow: wrap;}
 
 .flex.visible{ display: flex !important; }
 
