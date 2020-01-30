@@ -86,6 +86,8 @@ html{
 
 /*flex-flow*/
 .flex.flow-wrap{  flex-flow: wrap;}
+.flex.dir-row.flow-wrap{  flex-flow: row wrap;}
+.flex.dir-column.flow-wrap{  flex-flow: column wrap;}
 
 .flex.visible{ display: flex !important; }
 
