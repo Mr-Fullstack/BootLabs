@@ -1,14 +1,9 @@
 
-
-
 /*
 addEventListener("resize",function(){
    console.log($(".main").Height());
 });
 */
-
-
-
 window.onload = function(){
     let verify = verifyAnimation();
     console.log(verify);
@@ -18,22 +13,15 @@ window.onload = function(){
                 alert("sumi");
             });
         });
-        
-        
-
     }
-   
 };
     
-
-
 function $(param){
    
     e =  document.querySelector(param);
 
     return this;
 }
-
 
 function click(callback){
     verifyAnimation();
@@ -46,13 +34,11 @@ function click(callback){
     return this;
   }
 
-
   function selectTypeCorrected(type){
     if( type === "string"){
      e = document.querySelector(e);
    } 
 };
-
 
 function verifyAnimation(){
 
@@ -67,14 +53,12 @@ function verifyAnimation(){
         head.appendChild(link);
         head.insertBefore(link,lastChild); 
     }
-
     return true;  
 }
 
 addEventListener("timeOut",function(){
     alert("oi");
 },255);
-
 
 function fadeOut(time,callback = null){
     verifyAnimation();
@@ -113,12 +97,9 @@ function fadeOut(time,callback = null){
     addEventListener("resize",function(){
         let innerHeight = window.innerHeight;
         return innerHeight;
-    });
+   });
 }
 
 function Height(){
   return  Array(e)[0].offsetHeight;
 }
-
-
-  
