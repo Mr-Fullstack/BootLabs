@@ -471,9 +471,9 @@ responsive medias queries
     .context.tv,
     .grid,
     form input:not([type=radio]),
-    .grid:nth-child(n){ width: 90% !important; }
+    .grid:nth-child(n){ width: 90% ; }
 
-     .grid{ grid-template-columns: auto !important; }
+     .grid{ grid-template-columns: auto ; }
      .grid:nth-child(n){
          padding-left: 0;
          padding-right: 0;
@@ -491,7 +491,7 @@ responsive medias queries
        
    }
     .w100{
-        height:auto !important;
+        height:auto ;
     }
 }
 @media screen and (max-width: 500px){
