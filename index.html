@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+        .radio-input{
+           display: none;
+        }
+        .radio-btn{
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 4px;
+            position: relative;
+            background-color: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        }
+
+        .radio-btn::after{
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 230295px;
+            position: absolute;
+            left: 2.49px;
+            top: 2.49px;
+            background-color: #7B4DBE;
+            opacity: 0;
+        }
+
+        .radio-input:checked +.label .radio-btn::after{
+            opacity: 1;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <input type="checkbox" name="" id="m" name="sexa"  class="radio-input">
+            <label for="m" class="label">
+                <span class="radio-btn"></span>
+                Masculino
+            </label>
+        </div>
+      <div>
+        <input type="checkbox" name="" id="f" name="sexa " class="radio-input">
+        <label for="f" class="label"> 
+            <span class="radio-btn"></span>
+            Feminino
+        </label>
+    </div>
+    </form>
+</body>
+</html>
